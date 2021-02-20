@@ -13,5 +13,7 @@ class Motor {
 
     }
 
-
+    fun toString(cavalos: Int,cilindrada: Int): String? {
+        return "Motor | $cavalos | $cilindrada"
+    }
 }

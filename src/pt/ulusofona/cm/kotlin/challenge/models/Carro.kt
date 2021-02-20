@@ -1,5 +1,7 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
+import java.util.*
+
 class Carro {
     val identificador:String
     val motor:Motor
@@ -11,5 +13,8 @@ class Carro {
 
     fun Carro(identificador: String,motor: Motor){
 
+    }
+    fun toString(identificador: String,dataDeAquisicao:String, posicao: Posicao,x:Int,y:Int): String? {
+        return "Carro | $identificador | $dataDeAquisicao | $posicao | $x | $y"
     }
 }

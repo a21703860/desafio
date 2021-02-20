@@ -38,4 +38,7 @@ abstract class Pessoa {
 
     }
 
+     fun toString(nome: String,dataDeNascimento:Date,posicao: Posicao,x:Int,y:Int): String? {
+        return "Pessoa | $nome | $dataDeNascimento | $posicao | $x | $y"
+    }
 }
